@@ -70,5 +70,10 @@ namespace PromoCodeFactory.WebHost.Controllers
 
             return employeeModel;
         }
+        [HttpPost]
+        public async Task<ActionResult<EmployeeResponse>> CreateEmployeeAsync(Employee employee)
+        {
+            
+        }
     }
 }
